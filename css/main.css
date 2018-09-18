@@ -73,8 +73,19 @@ nav .LOGO {
 
 /* SUB-LIST-AREA */
 
+#SUB-LIST-AREA img {
+    max-width: 100%;
+}
+
 #SUB-LIST-AREA .list .icon{
     border: 2px solid #f38537;
+}
+
+/* PIC-AREA */
+
+
+#PIC-AREA img {
+    max-width: 100%;
 }
 
 /* FEATURES-AREA */
