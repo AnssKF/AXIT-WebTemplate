@@ -1,0 +1,98 @@
+/* CUSTOM CLASS */
+
+.main-text-color{
+    color: #f38537;
+}
+
+.main-bg-color{
+    background-color: #f38537;
+}
+
+.bg-black{
+    background-color: #111;
+}
+
+.y-center{
+    right: 0;
+    left: 0;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* MAIN STYLE */
+
+html{
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 6000px;
+}
+
+/* HEADER */
+
+header{
+    height: 100vh;
+
+    background: #111 url("../img/header-bg.png") no-repeat center;
+    background-size: cover;
+
+}
+
+/* NAV-BAR */
+
+nav .LOGO {
+    font-size: 2em;
+}
+
+/* HOME AREA */
+
+#HOME-AREA .LOGO{
+    font-size: 5em;
+}
+
+#HOME-AREA .slogan {
+    font-size: 2.5em;
+}
+
+/* TABS-AREA */
+
+#TABS-AREA button:hover {
+    background-color: #f38537;
+}
+
+/* SUB-LIST-AREA */
+
+#SUB-LIST-AREA .list .icon{
+    border: 2px solid #f38537;
+}
+
+/* FEATURES-AREA */
+
+#FEATURES-AREA .icon {
+    width: 3.7em;
+    height: 3.7em;
+    font-size: 2em;
+    border: 2px solid #f38537;
+}
+
+#FEATURES-AREA .icon i {
+    margin-top: 29px;
+}   
+
+/* PRICING-AREA */
+
+#PRICING-AREA .card {
+    border: none;
+    border-bottom: 4px solid #f38537;
+}
+
+#PRICING-AREA .price{
+    font-size: 5em;
+}
+
+
+
+
